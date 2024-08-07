@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "causalml-medium"
+version = "0.1.0"
+description = ""
+authors = ["Starbz <arthur.cruiziat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+causalml = "^0.15.1"
+matplotlib = "^3.9.1.post1"
+seaborn = "^0.13.2"
+numpy = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
